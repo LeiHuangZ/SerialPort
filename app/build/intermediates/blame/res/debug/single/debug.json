@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_bg.xml.flat",
+        "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\drawable\\btn_bg.xml"
+    },
+    {
+        "merged": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\build\\intermediates\\res\\merged\\debug\\layout_console.xml.flat",
+        "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\layout\\console.xml"
+    },
+    {
+        "merged": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\build\\intermediates\\res\\merged\\debug\\xml_serial_port_preferences.xml.flat",
+        "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\xml\\serial_port_preferences.xml"
+    }
+]

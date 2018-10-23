@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.serial"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name="com.serial.sample.Application"
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:persistent="true" >
+        <activity
+            android:name="com.serial.sample.MainMenu"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:launchMode="standard" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.serial.sample.SerialPortPreferences"
+            android:configChanges="orientation|screenSize"
+            android:label="通信串口设置" />
+        <activity
+            android:name="com.serial.sample.ConsoleActivity"
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTask" />
+
+        <receiver android:name="com.serial.sample.BootReceiver" >
+            <intent-filter>
+
+                <!-- 系统启动完成后会调用 -->
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.serial.sample.ReceiveService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.serial.sample.LogService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

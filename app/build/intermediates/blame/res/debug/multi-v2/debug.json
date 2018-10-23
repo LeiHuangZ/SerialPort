@@ -1,0 +1,47 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,3,25,26,28",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "102,56,926,1015,1118",
+                        "endLines": "24,3,25,27,29",
+                        "endColumns": "10,45,88,16,18",
+                        "endOffsets": "921,97,1010,1113,1214"
+                    },
+                    "to": {
+                        "startLines": "66,87,88,89,91",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "1796,2620,2666,2755,2858",
+                        "endLines": "86,87,88,90,92",
+                        "endColumns": "10,45,88,16,18",
+                        "endOffsets": "2615,2661,2750,2853,2954"
+                    }
+                },
+                {
+                    "source": "C:\\Workspace\\PROJECT\\LongJia\\BeiDou\\SerialPort\\app\\src\\main\\res\\values\\baudrates.xml",
+                    "from": {
+                        "startLines": "3,35",
+                        "startColumns": "4,4",
+                        "startOffsets": "56,926",
+                        "endLines": "34,66",
+                        "endColumns": "19,19",
+                        "endOffsets": "921,1792"
+                    },
+                    "to": {
+                        "startLines": "2,34",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,925",
+                        "endLines": "33,65",
+                        "endColumns": "19,19",
+                        "endOffsets": "920,1791"
+                    }
+                }
+            ]
+        }
+    ]
+}
